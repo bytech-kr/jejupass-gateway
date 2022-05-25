@@ -1,0 +1,32 @@
+{
+    "editor.tabSize": 2,
+    "editor.renderWhitespace": "boundary",
+    "editor.formatOnSave": false,
+    "javascript.validate.enable": false,
+    "javascript.format.enable": false,
+    "vetur.format.defaultFormatter.scss": "prettier",
+    "vetur.format.defaultFormatter.css": "prettier",
+    "vetur.format.defaultFormatter.js": "prettier",
+    "vetur.format.defaultFormatter.html": "prettier",
+    "prettier.singleQuote": true,
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    "npm-intellisense.scanDevDependencies": true,
+    "npm-intellisense.recursivePackageJsonLookup": true,
+    "npm-intellisense.packageSubfoldersIntellisense": true,
+    "path-intellisense.mappings": {
+      "@": "${workspaceRoot}/src",
+      // "$$components": "${workspaceRoot}/src/components/common"
+    },
+    "eslint.validate": [
+      "html", "javascript", "javascriptreact"
+    ],
+    "eslint.alwaysShowStatus": true,
+    "eslint.enable": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    }
+  }
